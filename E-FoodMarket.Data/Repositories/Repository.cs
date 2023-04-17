@@ -2,6 +2,6 @@
 
 namespace E_FoodMarket.Data.Repositories;
 
-public class GenericRepository : IGenericRepository
+public class Repository : IGenericRepository
 {
 }
