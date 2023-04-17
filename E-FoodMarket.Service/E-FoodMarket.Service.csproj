@@ -8,10 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\" />
     <Folder Include="Helpers\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\E-FoodMarket.Domain\E-FoodMarket.Domain.csproj" />
   </ItemGroup>
 
 </Project>
